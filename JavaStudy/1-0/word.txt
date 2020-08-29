@@ -23,7 +23,7 @@ PHPEEEPHP‚Æ‚Í“®“I‚ÉWebƒy[ƒW‚ð¶¬‚·‚é‚±‚Æ‚ª‚Å‚«‚éƒT[ƒo[ƒTƒCƒh‚ÌƒXƒNƒŠƒvƒgŒ
 RubyEEERuby‚Æ‚ÍA‚Ü‚Â‚à‚Æ‚ä‚«‚Ð‚ëŽ‚É‚æ‚èŠJ”­‚³‚ê‚½ƒIƒuƒWƒFƒNƒgŽwŒüƒXƒNƒŠƒvƒgŒ¾Œê
 ¡ ƒT[ƒo[ƒ\ƒtƒg
 ApacheEEEApache‚Í¢ŠE“I‚ÉˆêA“ñ‚ð‘ˆ‚¤‚­‚ç‚¢—L–¼‚ÈWebƒT[ƒo‚Ìƒ\ƒtƒgBƒRƒ“ƒsƒ…[ƒ^‚ÉApache‚ð“ü‚ê‚é‚ÆA‚»‚ÌƒRƒ“ƒsƒ…[ƒ^‚ÍWebƒT[ƒo‚Æ‚µ‚Ä‚Ì‚¨ŽdŽ–‚ª‚Å‚«‚éƒRƒ“ƒsƒ…[ƒ^‚É‚È‚éB
-nginxEEENginxiƒGƒ“ƒWƒ“EƒGƒbƒNƒXj‚Æ‚ÍAWebƒT[ƒo‚ÌˆêŽíBƒ†[ƒU[‚ÌƒŠƒNƒGƒXƒg‚É‘Î‚µ‚ÄÃ“IƒRƒ“ƒeƒ“ƒc‚ÌŽæ‚èo‚µˆ—‚ðs‚¢A‚»‚µ‚Ä“®“IƒRƒ“ƒeƒ“ƒc‚Ì¶¬‚ðƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒT[ƒo‚ÉˆË—Š‚·‚é‚½‚ß‚Ì‚à‚Ì‚É‚È‚éB
+nginxEEENginxiƒGƒ“ƒWƒ“EƒGƒbƒNƒXj‚Æ‚ÍAWebƒT[ƒo‚ÌˆêŽíBƒ†[ƒU[‚ÌƒŠƒNƒGƒXƒg‚É‘Î‚µ‚ÄÃ“IƒRƒ“ƒeƒ“ƒc‚ÌŽæ‚èo‚µˆ—‚ðs‚¢A‚»‚µ‚Ä“®“IƒRƒ“ƒeƒ“ƒc‚Ì¶¬‚ðƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒT[ƒo‚ÉˆË—Š‚·‚é‚½‚ß‚Ì‚à‚Ì‚É‚È‚éBƒAƒpƒbƒ`‚É”ä‚×‘‚¢‚ª“ï‚µ‚¢B
 IISEEEwebƒT[ƒo[ƒ\ƒtƒg‚Ìˆê‚ÂB
 ¡ SQL
 SQLEEESQLiStructured Query Languagej‚ÍƒŠƒŒ[ƒVƒ‡ƒiƒ‹ƒf[ƒ^ƒx[ƒXiRDBj‚Ì‘€ì‚ðs‚¤‚½‚ß‚ÌŒ¾ŒêB
@@ -78,8 +78,8 @@ GUIEEE–{—ˆ‚ÍƒRƒ“ƒ\[ƒ‹‚ÅŽÀŽ{‚·‚éì‹Æ‚ðAƒOƒ‰ƒtƒBƒJƒ‹‚É•\Œ»‚µ‚Ä‚­‚ê‚é‚Ì‚ÅAGit
 ƒ‹[ƒgEƒfƒBƒŒƒNƒgƒŠEEEƒfƒBƒŒƒNƒgƒŠ‚ÍŠK‘w\‘¢‚É‚È‚Á‚Ä‚¢‚é‚Ì‚ÅA‚ ‚éƒfƒBƒŒƒNƒgƒŠ‚Í‘¼‚ÌƒfƒBƒŒƒNƒgƒŠ‚É‘®‚µ‚Ä‚¢‚Ü‚·Bƒ‹[ƒgƒfƒBƒŒƒNƒgƒŠ‚Í‚»‚ÌŠK‘w\‘¢‚Ìˆê”Ôã‚É‚ ‚éƒfƒBƒŒƒNƒgƒŠ‚Ì‚±‚Æ
 ƒJƒŒƒ“ƒgEƒfƒBƒŒƒNƒgƒŠEEEƒ^[ƒ~ƒiƒ‹‚ÅŒ»Ýì‹Æ’†‚ÌƒfƒBƒŒƒNƒgƒŠ‚Ì‚±‚ÆBƒ^[ƒ~ƒiƒ‹‚Å‚Í‚±‚±‚ðŠî€‚ÉPC‚É–½—ß‚ðo‚µ‚Ä‚¢‚­Bƒ^[ƒ~ƒiƒ‹‚Å‚Í`‚Æ•\Ž¦‚³‚ê‚é
 ƒpƒXEEEƒpƒX‚Æ‚ÍƒfƒBƒŒƒNƒgƒŠ‚âƒtƒ@ƒCƒ‹‚ÌŠÝ‚ðŽ¦‚·•¶Žš—ñ‚Ì‚±‚ÆBƒfƒBƒŒƒNƒgƒŠ‚ÍŠK‘w‚²‚Æ‚É/(ƒXƒ‰ƒbƒVƒ…)‚Å‹æØ‚è‚Ü‚·BƒpƒX‚ÌŽw’è•û–@‚Í â‘ÎƒpƒX ‚Æ ‘Š‘ÎƒpƒX ‚Ì2‚Â‚ª‚ ‚éB
-â‘ÎƒpƒXEEE‘Š‘ÎƒpƒX‚Í ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚©‚çŽw’è‚·‚éƒpƒX
-‘Š‘ÎƒpƒXEEEâ‘ÎƒpƒX‚Í ƒ‹[ƒgƒfƒBƒŒƒNƒgƒŠ‚©‚çŽw’è‚·‚éƒpƒXB‚Â‚Ü‚èƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ÉŠÖŒW‚È‚­ƒtƒ@ƒCƒ‹‚âƒfƒBƒŒƒNƒgƒŠ‚ðŽw’è‚·‚é‚±‚Æ‚ª‚Å‚«‚éB
+â‘ÎƒpƒXEEEâ‘ÎƒpƒX‚Í ƒ‹[ƒgƒfƒBƒŒƒNƒgƒŠ‚©‚çŽw’è‚·‚éƒpƒXB‚Â‚Ü‚èƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ÉŠÖŒW‚È‚­ƒtƒ@ƒCƒ‹‚âƒfƒBƒŒƒNƒgƒŠ‚ðŽw’è‚·‚é‚±‚Æ‚ª‚Å‚«‚éB
+‘Š‘ÎƒpƒXEEE‘Š‘ÎƒpƒX‚Í ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚©‚çŽw’è‚·‚éƒpƒX
 ¡ ƒlƒbƒgƒ[ƒN
 LANEEELAN‚Æ‚ÍAŒÀ‚ç‚ê‚½”ÍˆÍ“à‚É‚ ‚éƒRƒ“ƒsƒ…[ƒ^‚â’ÊM‹@ŠíAî•ñ‹@Ší‚È‚Ç‚ðƒP[ƒuƒ‹‚â–³ü“d”g‚È‚Ç‚ÅÚ‘±‚µA‘ŠŒÝ‚Éƒf[ƒ^’ÊM‚Å‚«‚é‚æ‚¤‚É‚µ‚½ƒlƒbƒgƒ[ƒN‚Ì‚±‚ÆB
 WANEEELˆæ’ÊM–ÔiWide Area Networkj‚Ì—ª‚ÅAŒ³X‚ÍLAN‚Æ”äŠr‚µ‚ÄLˆæ‚Æ‚¢‚¤ˆÓ–¡‚¾‚ªAŒ»Ý‚Å‚ÍLAN‚ÆLAN‚ðŒ‹‚ÔŒöO–Ô‚Ì‚±‚Æ‚ðŽw‚·ê‡‚ª‘½‚¢B WAN‚ð¢ŠE‹K–Í‚ÅŽÀŒ»‚µ‚Ä‚¢‚é‚Ì‚ªƒCƒ“ƒ^[ƒlƒbƒg‚Å‚ ‚éB ‚Ü‚½ALˆæ’ÊM–Ô‚Æ‚µ‚Ä“d‹C’ÊMŽ–‹ÆŽÒ‚ª’ñ‹Ÿ‚·‚é‚³‚Ü‚´‚Ü‚Èƒlƒbƒgƒ[ƒNƒT[ƒrƒX‚ð‘Ì‚µ‚ÄWAN‚Æ‚¢‚¤B
