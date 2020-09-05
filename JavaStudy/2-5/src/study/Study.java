@@ -40,11 +40,7 @@ public class Study {
         for (Entry<String, Integer> entry : shopMap.entrySet()) {
         	String k = entry.getKey();
         	int v = entry.getValue();
-        	System.out.println(k + "=" + v + "円になります!" + shopMap);
-        }
-//        for (String key  : shopMap){
-//        	System.out.println(shopMap.getKey());
-//        }
-        
+        	System.out.println(k + "=" + v + "円になります!");
+        }      
     }
 }
