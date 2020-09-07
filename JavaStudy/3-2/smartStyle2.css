@@ -1,0 +1,91 @@
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media screen and (max-width: 767px) {
+  .header {
+    width: 300px;
+  }
+  .left {
+    width: 100px;
+  }
+  .right {
+    width: 250px;
+  }
+  .center {
+    width: 125px;
+  }
+  .orange {
+    width: 75px;
+    float: left;
+  }
+  .bottom {
+    width: 200px;
+  }
+  .footer {
+    width: 300px;
+  }
+}
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 150px; 
+    margin: 0 auto; 
+  /* wrapperクラスを中央寄せ */
+  }
+  /* header */
+  .header { 
+    width: 150px;
+  }
+  /** contents **/
+  .contents { 
+    height: 250px;
+  }
+  
+  /** left **/
+  .left { 
+    float: top;
+    width: 150px;
+    height: 100px;
+
+  }
+  /* right? */
+  .right { 
+    float: top; 
+    width: 150px; 
+    height: 350px;
+  }
+  .top{
+    float: top;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .center{
+    float: none;
+    width: 150px;
+    height: 150px;
+    order: 2;
+  }
+  .yellow{
+    float: none;
+  }
+  .blue{
+    float: top;
+    height: 100px;
+  }
+  .orange{
+    float: top;
+    height: 100px;
+    width: 150px;
+    order: 1;
+  }
+  .bottom{
+    width: 150px;
+    float: top;
+    margin-top: 100px;
+  }
+
+  .footer {
+    float: top;
+    height: 100px;
+    width: 150px;
+  }
