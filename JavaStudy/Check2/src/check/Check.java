@@ -2,8 +2,8 @@ package check;
 import constants.Constants;
 
 public class Check {
-	private static String firstName = "蛭間";
-	private static String lastName = "寛大";
+	private String firstName = "蛭間";
+	private String lastName = "寛大";
 	private void printName() {
 		System.out.println("printNameメソッド → " + firstName + lastName);
 	}
