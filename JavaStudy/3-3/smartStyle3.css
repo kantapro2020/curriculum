@@ -1,0 +1,57 @@
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 200px; 
+    margin: 0 auto; 
+  }
+  .header { 
+    height: 200px;
+    width: 200px;
+  }
+  .header-box {
+    height: 160px;
+    width: 40px;
+    margin: 10px 70px;
+    padding: 10px;
+    display: block;
+  }
+  .box2{
+    margin-top: 20px;
+  }
+  .box3{
+    margin-top: 20px;
+  }
+  .contents{
+    width: 200px;
+    height: 250px;
+  }
+  .left{
+    width: 200px;
+    height: 100px;
+    float: left;
+  }
+  .right{
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
+  
+  .inbox1{
+    width: 140px;
+    margin: 20px 30px 0px 30px;
+  }
+  .inbox2{
+    width: 140px;
+    margin: 10px 30px 0px 30px;
+  }
+  .inbox3{
+    width: 140px;
+    margin: 10px 30px 0px 30px;
+  }
+  .footer{
+    width: 200px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
