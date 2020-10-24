@@ -15,3 +15,16 @@ package study;
     	System.out.println("plusメソッドの引数が一つの場合：" + c);
     }
 }
+	
+	
+//	public class Calculator {
+//	    protected static int plus(int a) {
+//	        return a + 1;
+//	    }
+//	    protected static int plus(int a, int b) {
+//	        return a + b;
+//	    }
+//	    protected static int plus(int a, int b, int c) {
+//	        return a + b + c;
+//	    }
+//	}

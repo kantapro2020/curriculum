@@ -26,9 +26,13 @@ import org.springframework.security.core.userdetails.UserDetails;
 //実行時に宣言した各フィールド変数がカラムとして作成される
 //問１－１ DB設計に必要なアノテーションを記述
 @Entity
+//JPAの実態であることを示す
 @Table(name = "accounts")
+//エンティティに対応するテーブル名を指定
 public class Account implements UserDetails {
 	private static final long serialVersionUID = 1L;
+//	serialVersionUIDはインターフェースjava.io.Serializableを実装した場合に必要。
+//	同一名のクラスが存在（割り込ませたり）した場合にserialVersionUIDで判定ができる？
 
 	//権限は一般ユーザ、マネージャ、システム管理者の３種類とする
 	public enum Authority {
@@ -37,8 +41,8 @@ public class Account implements UserDetails {
 
 	//問１－２ プライマリーキーを設定するアノテーションを記述
 	@Id
-
 	@Column(nullable = false, unique = true)
+//	データベースのカラム名や条件を記述
 	private String username;
 
 	@Column(nullable = false)
@@ -54,11 +58,14 @@ public class Account implements UserDetails {
 	private boolean enabled;
 
 	@Temporal(TemporalType.TIMESTAMP)
+//	dataまたはcalクラスのカラムを作るときに使う
 	private Date createdAt;
 
 	// roleは複数管理できるように、Set<>で定義。
 	@ElementCollection(fetch = FetchType.EAGER)
+//	Collectionをエンティティの属性値にする
 	@Enumerated(EnumType.STRING)
+//	列挙型をエンティティに埋め込む
 	@Column(nullable = false)
 	private Set<Authority> authorities;
 
@@ -78,6 +85,7 @@ public class Account implements UserDetails {
 
 	//登録時に、日時を自動セットする
 	@PrePersist
+//	登録前にする処理
 	public void prePersist() {
 		this.createdAt = new Date();
 	}
@@ -113,6 +121,7 @@ public class Account implements UserDetails {
 	}
 
 	@Override
+//	「このメソッドはオーバーライドしているよ」という注釈
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		List<GrantedAuthority> authorities = new ArrayList<>();
 		for (Authority authority : this.authorities) {

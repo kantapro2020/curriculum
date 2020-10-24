@@ -13,15 +13,17 @@ import org.springframework.transaction.annotation.Transactional;
 
 //問３－１ Serviceであることを表すアノテーションを記述
 @Service
+//Sping MVCでサービス層のクラス（ビジネスロジック等）に付与する。
 public class AccountService implements UserDetailsService {
 
 	//問３－２ 自動でインスタンス生成をするアノテーションを記述
 	@Resource
+//	@Resourceアノテーションを使用してリソースの参照解決をする
 	private AccountRepository repository;
 
 	@Autowired
+//	@Componentが宣言されたクラスのインスタンスを宣言する
 	private PasswordEncoder passwordEncoder;
-
 	private List<Account> result;
 
 	@Override
@@ -45,6 +47,7 @@ public class AccountService implements UserDetailsService {
 
 	//adminを登録するメソッド
 	@Transactional
+//	付与されたクラスのメソッドが他のメソッドに呼び出されたときに実行時例外が起きた場合、トランザクション処理をする
 	public void registerAdmin(String username, String password, String mailAddress) {
 		//問３－３ 引数をもとにAccountクラスのインスタンスを生成する構文を記述（passwordはハッシュ化）
 		Account user = new Account(username, passwordEncoder.encode(password), mailAddress);

@@ -12,9 +12,11 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import com.example.security.springsecurity.account.AccountService;
 
 @EnableWebSecurity
+//Spring Securityを使うための設定
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
+//	@Componentが宣言されたクラスのインスタンスを生成する
 	private AccountService userService;
 
 	@Override
