@@ -235,3 +235,930 @@ Binding(COMMAND+SHIFT+-,
 
 !ENTRY org.eclipse.core.jobs 2 2 2020-10-21 21:23:09.890
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.urischeme.AutoRegisterSchemeHandlersJob
+!SESSION 2020-10-29 21:37:46.290 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/hirumakanta/LetsEngineer/curriculum/ -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:37:48.989
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:37:48.989
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:37:49.116
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:37:49.116
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f69b0ba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63537871,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:37:49.622
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:37:50.936
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:37:50.936
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@628e0403,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a70acd5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:37:50.936
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@475fb7,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@475fb7,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:43:26.178
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:43:26.178
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:33.440
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:33.441
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@524a8458[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=1012)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:33.444
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:33.469
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:43:34.110
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:43:34.110
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9ccdd34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@765f934e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c397b0c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.153
+!MESSAGE Boot LS startup time from start to initialized: 1703ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.249
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nxIYsMKXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.251
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.252
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.254
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.256
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.256
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.256
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.257
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nxIYsMKX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.259
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.259
+!MESSAGE buffering callback sts4.classpath.nxIYsMKX MVC_Task false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.260
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.260
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.260
+!MESSAGE buffering callback sts4.classpath.nxIYsMKX JavaStudy false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.261
+!MESSAGE executing callback sts4.classpath.nxIYsMKX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:43:35.280
+!MESSAGE executing callback sts4.classpath.nxIYsMKX SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.314
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.316
+!MESSAGE classpath=47 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.316
+!MESSAGE buffering callback sts4.classpath.nxIYsMKX Check4 false 46
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.317
+!MESSAGE executing callback sts4.classpath.nxIYsMKX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.322
+!MESSAGE executing callback sts4.classpath.nxIYsMKX SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.553
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.553
+!MESSAGE classpath=47 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.554
+!MESSAGE buffering callback sts4.classpath.nxIYsMKX Check4 false 46
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.554
+!MESSAGE executing callback sts4.classpath.nxIYsMKX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:25.558
+!MESSAGE executing callback sts4.classpath.nxIYsMKX SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:26.404
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:26.404
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:26.405
+!MESSAGE buffering callback sts4.classpath.nxIYsMKX Check4 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:26.405
+!MESSAGE executing callback sts4.classpath.nxIYsMKX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:44:26.410
+!MESSAGE executing callback sts4.classpath.nxIYsMKX SUCCESS [終了しました]
+
+!ENTRY org.eclipse.ui 4 0 2020-10-29 21:45:51.184
+!MESSAGE 未処理のイベント・ループ例外
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.dnd.DropTarget.getOperationFromKeyState(DropTarget.java:549)
+	at org.eclipse.swt.dnd.DropTarget.setEventData(DropTarget.java:830)
+	at org.eclipse.swt.dnd.DropTarget.draggingUpdated(DropTarget.java:299)
+	at org.eclipse.swt.dnd.DropTarget.dropTargetProc(DropTarget.java:447)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1146)
+	at org.eclipse.swt.widgets.Tree.mouseDownSuper(Tree.java:2156)
+	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1138)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2621)
+	at org.eclipse.swt.widgets.Tree.mouseDown(Tree.java:2123)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6012)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2150)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2401)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6136)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5386)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5522)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3786)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.ui 4 0 2020-10-29 21:45:56.404
+!MESSAGE 未処理のイベント・ループ例外
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.dnd.DragSource.dragImageForRowsWithIndexes_tableColumns_event_offset(DragSource.java:456)
+	at org.eclipse.swt.dnd.DragSource.dragSourceProc(DragSource.java:578)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSTableView.dragImageForRowsWithIndexes(NSTableView.java:59)
+	at org.eclipse.swt.dnd.TreeDragSourceEffect.getDragSourceImage(TreeDragSourceEffect.java:91)
+	at org.eclipse.swt.dnd.TreeDragSourceEffect.dragStart(TreeDragSourceEffect.java:80)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:36)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4385)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.dnd.DragSource.startDrag(DragSource.java:824)
+	at org.eclipse.swt.dnd.DragSource.dragOutlineViewStart(DragSource.java:400)
+	at org.eclipse.swt.dnd.DragSource.lambda$0(DragSource.java:215)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4385)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.sendMouseEvent(Control.java:3502)
+	at org.eclipse.swt.widgets.Tree.sendMouseEvent(Tree.java:2806)
+	at org.eclipse.swt.widgets.Tree.outlineView_writeItems_toPasteboard(Tree.java:2453)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6594)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1146)
+	at org.eclipse.swt.widgets.Tree.mouseDownSuper(Tree.java:2156)
+	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1138)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2621)
+	at org.eclipse.swt.widgets.Tree.mouseDown(Tree.java:2123)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6012)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2150)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2401)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6136)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5386)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5522)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3786)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:46:12.145
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:49:52.880
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nxIYsMKX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:49:52.881
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nxIYsMKX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:49:52.882
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:49:52.882
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nxIYsMKX => OK
+!SESSION 2020-10-29 21:50:00.758 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:50:03.355
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:50:03.356
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:50:03.485
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:50:03.485
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57f83c82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a600e21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:50:03.992
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:50:05.288
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:50:05.289
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77d7d2d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63075ad1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:50:05.289
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5fa0943d,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5fa0943d,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:10.114
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:10.115
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@472bcf53[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=1012)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:10.117
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:10.137
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:50:11.502
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:50:11.502
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16ec2ffa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38128db7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@212667ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:50:12.627
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:50:12.627
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:12.925
+!MESSAGE Boot LS startup time from start to initialized: 2398ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.058
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HFTDFhmMisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.060
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.061
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.063
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.065
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.066
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.067
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.067
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HFTDFhmM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.070
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.071
+!MESSAGE buffering callback sts4.classpath.HFTDFhmM MVC_Task false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.072
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.073
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.074
+!MESSAGE buffering callback sts4.classpath.HFTDFhmM Check4 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.074
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.075
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.076
+!MESSAGE buffering callback sts4.classpath.HFTDFhmM JavaStudy false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.076
+!MESSAGE executing callback sts4.classpath.HFTDFhmM 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:50:13.114
+!MESSAGE executing callback sts4.classpath.HFTDFhmM SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:12.487
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HFTDFhmM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:12.488
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HFTDFhmM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:12.489
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:12.490
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HFTDFhmM => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:52:13.568
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-10-29 21:52:16.340 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:52:18.819
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:52:18.819
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:52:18.953
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:52:18.953
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45c2c396,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@408d12fc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:52:19.451
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:52:20.719
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:52:20.719
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1315f1d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b32f0b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:52:20.719
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77d7d2d0,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77d7d2d0,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:23.559
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:23.560
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@64cc5f34[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=1012)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:23.562
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:23.613
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:52:24.433
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:52:24.433
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d70965d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c30bedc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c9be48a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:52:25.955
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:52:25.956
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.395
+!MESSAGE Boot LS startup time from start to initialized: 2317ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.567
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jswTupGgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.569
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.570
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.572
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.574
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.574
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.575
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.576
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jswTupGg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.579
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.583
+!MESSAGE buffering callback sts4.classpath.jswTupGg MVC_Task false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.583
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.584
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.585
+!MESSAGE buffering callback sts4.classpath.jswTupGg Check4 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.586
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.586
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.586
+!MESSAGE buffering callback sts4.classpath.jswTupGg JavaStudy false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.587
+!MESSAGE executing callback sts4.classpath.jswTupGg 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:52:26.637
+!MESSAGE executing callback sts4.classpath.jswTupGg SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:55:57.652
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jswTupGg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:55:57.654
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jswTupGg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:55:57.654
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:55:57.655
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jswTupGg => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:55:58.856
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-10-29 21:59:06.287 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:59:08.819
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:59:08.819
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:59:08.950
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:59:08.950
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22617270,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@630febd7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:59:09.444
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:59:10.735
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:59:10.735
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50b010d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@510d4d4b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:59:10.735
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12f32f99,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12f32f99,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:15.131
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:15.132
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5c4b4c4d[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=1012)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:15.134
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:15.153
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:59:16.390
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:59:16.390
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51cea39e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d100d1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7cf9dc4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:59:17.420
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:59:17.420
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.746
+!MESSAGE Boot LS startup time from start to initialized: 2146ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.881
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LTiLtbZCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.883
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.884
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.886
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.888
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.889
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.890
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LTiLtbZC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.892
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.896
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.898
+!MESSAGE buffering callback sts4.classpath.LTiLtbZC MVC_Task false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.898
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.899
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.901
+!MESSAGE buffering callback sts4.classpath.LTiLtbZC Check4 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.902
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.902
+!MESSAGE buffering callback sts4.classpath.LTiLtbZC JavaStudy false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.903
+!MESSAGE executing callback sts4.classpath.LTiLtbZC 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:59:17.938
+!MESSAGE executing callback sts4.classpath.LTiLtbZC SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 22:07:21.969
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LTiLtbZC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 22:07:21.972
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LTiLtbZC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 22:07:21.972
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 22:07:21.973
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LTiLtbZC => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 22:07:23.273
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

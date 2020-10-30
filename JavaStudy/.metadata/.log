@@ -177,3 +177,400 @@ Binding(ALT+CTRL+T,
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
 !SUBENTRY 1 org.eclipse.ui 2 0 2020-10-28 20:11:26.134
 !MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:24:10.048
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-10-29 21:24:15.711 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:24:23.818
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:24:23.818
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:24:23.935
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:24:23.935
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6166aac5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e36d508,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:24:24.374
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:24:25.364
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:24:25.364
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3956df0a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@739500b8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:24:25.364
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e8ce5b1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e8ce5b1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:26:56.356
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-10-29 21:27:04.741 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:27:21.142
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:27:21.142
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:27:21.262
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:27:21.262
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10280879,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3472f3ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:27:21.718
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:27:22.603
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:27:22.604
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b58a0f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b6c3b37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:27:22.604
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a8964c1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a8964c1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:31:17.912
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-10-29 21:31:23.677 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:31:30.113
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:31:30.113
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:31:30.222
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:31:30.222
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6166aac5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e36d508,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:31:30.618
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:31:31.466
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:31:31.466
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41f3f64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@454f6cc5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:31:31.466
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e8ce5b1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e8ce5b1,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:33:38.830
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-10-29 21:34:40.857 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/hirumakanta/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:36:37.077
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:36:37.077
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:36:37.188
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:36:37.188
+!MESSAGE COMMAND+CTRL+F の競合が発生しました:
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(com.xored.glance.commands.open,Glance を開く,
+		Glance 検索パネルを開く,
+		Category(com.xored.glance.ui.commands,Glance,Glance 検索コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@406decb2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+Binding(COMMAND+CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.window.fullscreenmode,全画面の切り替え,
+		全画面と通常のウィンドウを切り替えます,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@122ea8dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-29 21:36:37.592
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:36:38.432
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:36:38.432
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38320819,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16c3388e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:36:38.433
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@655875bb,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@655875bb,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:30.081
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:30.082
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6feac677[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=1012)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:30.085
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:30.112
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2020-10-29 21:37:30.825
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-29 21:37:30.825
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@424bcd62,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c83c000,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35e4cf0c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 0 2020-10-29 21:37:31.492
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-10-29 21:37:31.492
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:31.863
+!MESSAGE Boot LS startup time from start to initialized: 1766ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:32.004
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yultkSMPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:32.005
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:32.006
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:32.007
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:32.009
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:32.010
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:32.010
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yultkSMP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:44.279
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yultkSMP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:44.279
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.yultkSMP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:44.280
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-29 21:37:44.280
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yultkSMP => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-10-29 21:37:45.445
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

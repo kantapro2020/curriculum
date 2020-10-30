@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-11"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="layout" value="1"/>
 		<item key="group_libraries" value="true"/>
@@ -9,5 +11,11 @@
 	</section>
 	<section name="javadoc">
 		<item key="additionalparam" value="-encoding UTF-8&#x0D;&#x0A;-charset UTF-8"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
 	</section>
 </section>
