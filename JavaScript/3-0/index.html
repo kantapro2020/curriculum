@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="dropdwn">
+        <li>
+          ホバーしてみよう
+          <ul class="dropdwn_menu">
+            <li><a href="#">名前</a></li>
+            <li><a href="#">性別</a></li>
+            <li><a href="#">住所</a></li>
+            <li><a href="#">電話番号</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      $(".dropdwn li").hover(
+        function () {
+          $(".dropdwn_menu:not(:animated)", this).slideDown();
+        },
+        function () {
+          $(".dropdwn_menu", this).slideUp();
+        }
+      );
+    </script>
+  </body>
+</html>
